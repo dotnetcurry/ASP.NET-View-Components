@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MVC6_App.Models.Product>
+
+<h3>Max. Sold Products</h3>
+<ul>
+    @foreach (var prd in Model)
+    {
+        <li>@prd.ProductName</li>
+    }
+</ul>
